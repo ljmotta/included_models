@@ -8,9 +8,6 @@
   <dmn:decision id="_26ADBA53-DF66-405C-A186-03AC4C791D6D" name="Decision2">
     <dmn:extensionElements></dmn:extensionElements>
     <dmn:variable id="_71A4018A-F9E3-4885-BAF8-48CBD9A096A6" name="Decision2" typeRef="dmn2.tTest"></dmn:variable>
-    <dmn:informationRequirement id="_8C4BD725-3ACE-4C6C-A122-2D977FE03CA9">
-      <dmn:requiredInput href="https://kiegroup.org/dmn/_4B9769E4-3BA3-43AC-B162-B386083F0CAD#_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C"></dmn:requiredInput>
-    </dmn:informationRequirement>
   </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_2AAE446B-AEB8-4026-898A-ACE95FF2E17B" name="DRG">
@@ -21,7 +18,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"></dmndi:StrokeColor>
           <dmndi:FontColor red="0" green="0" blue="0"></dmndi:FontColor>
         </dmndi:DMNStyle>
-        <dc:Bounds x="362" y="198" width="100" height="50"></dc:Bounds>
+        <dc:Bounds x="149" y="75" width="100" height="50"></dc:Bounds>
         <dmndi:DMNLabel></dmndi:DMNLabel>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C" dmnElementRef="included1:_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C" isCollapsed="false">
@@ -30,13 +27,9 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"></dmndi:StrokeColor>
           <dmndi:FontColor red="0" green="0" blue="0"></dmndi:FontColor>
         </dmndi:DMNStyle>
-        <dc:Bounds x="361" y="320" width="100" height="50"></dc:Bounds>
+        <dc:Bounds x="148" y="197" width="100" height="50"></dc:Bounds>
         <dmndi:DMNLabel></dmndi:DMNLabel>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-drg-_8C4BD725-3ACE-4C6C-A122-2D977FE03CA9-AUTO-TARGET" dmnElementRef="_8C4BD725-3ACE-4C6C-A122-2D977FE03CA9">
-        <di:waypoint x="411" y="345"></di:waypoint>
-        <di:waypoint x="412" y="248"></di:waypoint>
-      </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
