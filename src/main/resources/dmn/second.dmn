@@ -24,7 +24,7 @@
       <dmn:requiredInput href="#_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_FFF602F4-CED5-42FE-AA4A-0959349096BA">
-      <dmn:text>InputData</dmn:text>
+      <dmn:text>ToImportInputData</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
