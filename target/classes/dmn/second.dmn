@@ -13,13 +13,13 @@
     <dmn:outputDecision href="#_8F917EC5-F90E-48D5-BA10-A45E9A55CCC3"/>
     <dmn:inputData href="#_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C"/>
   </dmn:decisionService>
-  <dmn:inputData id="_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C" name="InputData">
+  <dmn:inputData id="_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C" name="ToImportInputData">
     <dmn:extensionElements/>
-    <dmn:variable id="_F438021B-295D-4094-A87F-91715E1ADF26" name="InputData" typeRef="tTest"/>
+    <dmn:variable id="_F438021B-295D-4094-A87F-91715E1ADF26" name="ToImportInputData" typeRef="tTest"/>
   </dmn:inputData>
-  <dmn:decision id="_8F917EC5-F90E-48D5-BA10-A45E9A55CCC3" name="Decision">
+  <dmn:decision id="_8F917EC5-F90E-48D5-BA10-A45E9A55CCC3" name="ToImportDecision">
     <dmn:extensionElements/>
-    <dmn:variable id="_68089E7D-C9A8-4D60-9DE3-A3FCB0063F8A" name="Decision" typeRef="tTest"/>
+    <dmn:variable id="_68089E7D-C9A8-4D60-9DE3-A3FCB0063F8A" name="ToImportDecision" typeRef="tTest"/>
     <dmn:informationRequirement id="_B32AB28B-3879-470E-A2C9-7B62E5B7E3D9">
       <dmn:requiredInput href="#_DD2A9BE2-83A9-4D4D-AE70-8162A54C7B7C"/>
     </dmn:informationRequirement>
